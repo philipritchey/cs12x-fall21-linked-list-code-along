@@ -1,0 +1,2 @@
+run = "make && ./a.out"
+language = "C++17" # optional

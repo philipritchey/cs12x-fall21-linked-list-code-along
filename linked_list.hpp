@@ -13,10 +13,21 @@ class linked_list {
     };
 
     const node* get_head() const { return this->head; }
+    
     size_t size() const { /* TODO */ return 0; }
-    const T& at(size_t index) const { /* TODO */ return *(new T); }
-    void insert(size_t index, const T& value) { /* TODO */ }
-    void erase(size_t index) { /* TODO */ }
+    
+    const T& at(size_t index) const {
+        /* TODO */
+        return *(new T);
+    }
+    
+    void insert(size_t index, const T& value) {
+        /* TODO */
+    }
+    
+    void erase(size_t index) {
+        /* TODO */
+    }
 
  private:
     node* head;

@@ -1,2 +1,2 @@
-run = "make && ./a.out"
+run = "clear && make && ./a.out"
 language = "C++17" # optional

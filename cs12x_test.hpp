@@ -225,13 +225,6 @@ catch (...) {\
 #define TEST(X) STARTING(X); test_##X() ? pass_cnt++ : fail_cnt++;
 #define SKIP(X) std::cout << "Skipping test_" << #X << "..." << std::endl; skip_cnt++;
 
-#ifdef MIMIR
-std::ostream& operator<<(std::ostream& os, std::nullptr_t) {
-  os << "nullptr";
-  return os;
-}
-#endif
-
 template <typename T1, typename T2>
 void explain_eq(
     const char n1[],

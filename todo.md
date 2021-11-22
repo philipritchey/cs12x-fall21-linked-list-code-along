@@ -2,25 +2,24 @@
 
 ## friday 19 nov
 1. basics
-    1. [ ] class definition
-    1. [ ] default constructor
+    1. [X] class definition
+    1. [X] default constructor
 1. list ADT
     1. capacity
-        1. [ ] `size()`
+        1. [X] `size()`
     1. access
-        1. [ ] `at(index)`
+        1. [X] `at(index)`
     1. modifiers
-        1. [ ] `insert(index, value)`
-        1. [ ] `erase(index)`
+        1. [X] `insert(index, value)`
+        1. [X] `erase(index)`
 
+## monday 22 nov
 1. rule of three
     1. [ ] `clear()`
     1. [ ] `copy(other)`
     1. [ ] `linked_list(rhs)`
     1. [ ] `operator=(rhs)`
     1. [ ] `~linked_list()`
-
-## monday 22 nov
 1. *"luxury"* methods
     1. capacity
         1. [ ] `empty()`
